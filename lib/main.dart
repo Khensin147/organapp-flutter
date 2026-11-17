@@ -11,8 +11,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://uqvaxxxrdhevlhiiwwkl.supabase.co',
-    anonKey: 'sb_publishable_c22U-2IVkVfowfmdQaYJzw_j4gYtOrW',
+    url: '',
+    anonKey: '',
   );
 
   // Inisialisasi notifikasi lokal (TANPA minta izin di awal)
